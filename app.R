@@ -3,7 +3,7 @@ library(shiny)
 # For download of csv files to work for shinylive
 # https://stackoverflow.com/questions/78344439/shinylive-wont-allow-downloading-data-tables-as-csv-files
 downloadButton <- function(...) {
-  tag <- downloadButton(...)
+  tag <- shiny::downloadButton(...)
   tag$attribs$download <- NULL
   tag
 }
