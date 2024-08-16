@@ -15,7 +15,6 @@ ui <- fluidPage(
   sidebarLayout(
 
     sidebarPanel(
-
       shiny::numericInput(inputId = "uid",
                           label = "Enter your University ID without any u prefix (e.g. 30000000)",
                           value = 30000000)
