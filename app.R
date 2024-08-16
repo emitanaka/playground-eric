@@ -22,7 +22,7 @@ ui <- fluidPage(
     ),
 
     mainPanel(
-      downloadButton("download", "Download the data below."),
+      #downloadButton("download", "Download the data below."),
       br(), br(),
       dataTableOutput("data")
     )
